@@ -190,7 +190,7 @@ s32 MBNG_LCD_FontInit(char font_name)
   case 'k': glcd_font = (u8 *)GLCD_FONT_KNOB_ICONS; break;
   case 'h': glcd_font = (u8 *)GLCD_FONT_METER_ICONS_H; break;
   case 'v': glcd_font = (u8 *)GLCD_FONT_METER_ICONS_V; break;
-  
+
   case 'a': glcd_font = (u8 *)GLCD_FONT_BIG_ALT; break; // Custom font
   default:
     return -1; // unsupported font
